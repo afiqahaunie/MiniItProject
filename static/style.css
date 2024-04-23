@@ -59,6 +59,70 @@ nav .fa{
     display: none;
 }
 
+hr.dashed {
+    border-top: 3px dashed #0e0e0e;
+  }
+
+.segment{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+   font-size: 30px;
+   font-weight: 550; 
+   text-align: center;
+   margin: 10px 0;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.try-button{
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    border: 1px solid #d70675;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.try-button:hover{
+    border: 1px solid black;
+    background: rgb(248, 246, 246);
+    transition: 0.3s;
+}
+.segment-desc{
+    flex-basis: 31%;
+    background: rgb(240, 165, 201);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.segment-desc:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,2);
+}
+
 @media(max-width: 700px){
   .nav-links ul li{
     display: block;
