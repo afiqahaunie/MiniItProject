@@ -8,7 +8,11 @@ def home():
 
 @app.route('/color')
 def color():
-    return render_template("color.html")
+    return render_template("color_page.html")
+
+@app.route('/community')
+def community():
+    return render_template("community_page.html")
 
 if __name__ == '__main__':
     app.run(debug = True)
