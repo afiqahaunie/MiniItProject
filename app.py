@@ -10,6 +10,10 @@ def home():
 def color():
     return render_template("color_page.html")
 
+@app.route('/makeup')
+def makeup():
+    return render_template("makeup_page.html")
+
 @app.route('/community')
 def community():
     return render_template("community_page.html")
